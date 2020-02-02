@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61E258AD23E6DC2100FB1694 /* just_safari_qrcode.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 61E258AC23E6DC2100FB1694 /* just_safari_qrcode.entitlements */; };
+		61E258AF23E6DC2100FB1694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258AE23E6DC2100FB1694 /* AppDelegate.swift */; };
+		61E258B223E6DC2100FB1694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E258B023E6DC2100FB1694 /* Main.storyboard */; };
+		61E258B423E6DC2100FB1694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258B323E6DC2100FB1694 /* ViewController.swift */; };
+		61E258B623E6DC2300FB1694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E258B523E6DC2300FB1694 /* Assets.xcassets */; };
+		61E258C123E6DC2400FB1694 /* just_safari_qrcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258C023E6DC2400FB1694 /* just_safari_qrcodeTests.swift */; };
+		61E258CC23E6DC2400FB1694 /* just_safari_qrcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258CB23E6DC2400FB1694 /* just_safari_qrcodeUITests.swift */; };
+		61E258D323E6DC2400FB1694 /* just-safari-qrcode Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61E258D223E6DC2400FB1694 /* just-safari-qrcode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		61E258D823E6DC2400FB1694 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E258D723E6DC2400FB1694 /* Cocoa.framework */; };
+		61E258DB23E6DC2400FB1694 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258DA23E6DC2400FB1694 /* SafariExtensionHandler.swift */; };
+		61E258DD23E6DC2400FB1694 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258DC23E6DC2400FB1694 /* SafariExtensionViewController.swift */; };
+		61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */; };
+		61E258E323E6DC2400FB1694 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E223E6DC2400FB1694 /* script.js */; };
+		61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E258BD23E6DC2400FB1694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E258A123E6DC2100FB1694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E258A823E6DC2100FB1694;
+			remoteInfo = "just-safari-qrcode";
+		};
+		61E258C823E6DC2400FB1694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E258A123E6DC2100FB1694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E258A823E6DC2100FB1694;
+			remoteInfo = "just-safari-qrcode";
+		};
+		61E258D423E6DC2400FB1694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E258A123E6DC2100FB1694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E258D123E6DC2400FB1694;
+			remoteInfo = "just-safari-qrcode Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61E258EC23E6DC2400FB1694 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				61E258D323E6DC2400FB1694 /* just-safari-qrcode Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		61E258A923E6DC2100FB1694 /* just-safari-qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "just-safari-qrcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E258AC23E6DC2100FB1694 /* just_safari_qrcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = just_safari_qrcode.entitlements; sourceTree = "<group>"; };
+		61E258AE23E6DC2100FB1694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61E258B123E6DC2100FB1694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61E258B323E6DC2100FB1694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61E258B523E6DC2300FB1694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61E258B723E6DC2300FB1694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E258BC23E6DC2400FB1694 /* just-safari-qrcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "just-safari-qrcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E258C023E6DC2400FB1694 /* just_safari_qrcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = just_safari_qrcodeTests.swift; sourceTree = "<group>"; };
+		61E258C223E6DC2400FB1694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E258C723E6DC2400FB1694 /* just-safari-qrcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "just-safari-qrcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E258CB23E6DC2400FB1694 /* just_safari_qrcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = just_safari_qrcodeUITests.swift; sourceTree = "<group>"; };
+		61E258CD23E6DC2400FB1694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E258D223E6DC2400FB1694 /* just-safari-qrcode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "just-safari-qrcode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E258D723E6DC2400FB1694 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		61E258DA23E6DC2400FB1694 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		61E258DC23E6DC2400FB1694 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		61E258DF23E6DC2400FB1694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		61E258E123E6DC2400FB1694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E258E223E6DC2400FB1694 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		61E258E623E6DC2400FB1694 /* just_safari_qrcode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = just_safari_qrcode_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E258A623E6DC2100FB1694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258B923E6DC2400FB1694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258C423E6DC2400FB1694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258CF23E6DC2400FB1694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258D823E6DC2400FB1694 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E258A023E6DC2100FB1694 = {
+			isa = PBXGroup;
+			children = (
+				61E258AB23E6DC2100FB1694 /* just-safari-qrcode */,
+				61E258BF23E6DC2400FB1694 /* just-safari-qrcodeTests */,
+				61E258CA23E6DC2400FB1694 /* just-safari-qrcodeUITests */,
+				61E258D923E6DC2400FB1694 /* just-safari-qrcode Extension */,
+				61E258D623E6DC2400FB1694 /* Frameworks */,
+				61E258AA23E6DC2100FB1694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E258AA23E6DC2100FB1694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E258A923E6DC2100FB1694 /* just-safari-qrcode.app */,
+				61E258BC23E6DC2400FB1694 /* just-safari-qrcodeTests.xctest */,
+				61E258C723E6DC2400FB1694 /* just-safari-qrcodeUITests.xctest */,
+				61E258D223E6DC2400FB1694 /* just-safari-qrcode Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E258AB23E6DC2100FB1694 /* just-safari-qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				61E258AC23E6DC2100FB1694 /* just_safari_qrcode.entitlements */,
+				61E258AE23E6DC2100FB1694 /* AppDelegate.swift */,
+				61E258B023E6DC2100FB1694 /* Main.storyboard */,
+				61E258B323E6DC2100FB1694 /* ViewController.swift */,
+				61E258B523E6DC2300FB1694 /* Assets.xcassets */,
+				61E258B723E6DC2300FB1694 /* Info.plist */,
+			);
+			path = "just-safari-qrcode";
+			sourceTree = "<group>";
+		};
+		61E258BF23E6DC2400FB1694 /* just-safari-qrcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E258C023E6DC2400FB1694 /* just_safari_qrcodeTests.swift */,
+				61E258C223E6DC2400FB1694 /* Info.plist */,
+			);
+			path = "just-safari-qrcodeTests";
+			sourceTree = "<group>";
+		};
+		61E258CA23E6DC2400FB1694 /* just-safari-qrcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61E258CB23E6DC2400FB1694 /* just_safari_qrcodeUITests.swift */,
+				61E258CD23E6DC2400FB1694 /* Info.plist */,
+			);
+			path = "just-safari-qrcodeUITests";
+			sourceTree = "<group>";
+		};
+		61E258D623E6DC2400FB1694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61E258D723E6DC2400FB1694 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61E258D923E6DC2400FB1694 /* just-safari-qrcode Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61E258DA23E6DC2400FB1694 /* SafariExtensionHandler.swift */,
+				61E258DC23E6DC2400FB1694 /* SafariExtensionViewController.swift */,
+				61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */,
+				61E258E123E6DC2400FB1694 /* Info.plist */,
+				61E258E223E6DC2400FB1694 /* script.js */,
+				61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */,
+				61E258E623E6DC2400FB1694 /* just_safari_qrcode_Extension.entitlements */,
+			);
+			path = "just-safari-qrcode Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E258A823E6DC2100FB1694 /* just-safari-qrcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E258ED23E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode" */;
+			buildPhases = (
+				61E258A523E6DC2100FB1694 /* Sources */,
+				61E258A623E6DC2100FB1694 /* Frameworks */,
+				61E258A723E6DC2100FB1694 /* Resources */,
+				61E258EC23E6DC2400FB1694 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E258D523E6DC2400FB1694 /* PBXTargetDependency */,
+			);
+			name = "just-safari-qrcode";
+			productName = "just-safari-qrcode";
+			productReference = 61E258A923E6DC2100FB1694 /* just-safari-qrcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E258BB23E6DC2400FB1694 /* just-safari-qrcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E258F023E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeTests" */;
+			buildPhases = (
+				61E258B823E6DC2400FB1694 /* Sources */,
+				61E258B923E6DC2400FB1694 /* Frameworks */,
+				61E258BA23E6DC2400FB1694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E258BE23E6DC2400FB1694 /* PBXTargetDependency */,
+			);
+			name = "just-safari-qrcodeTests";
+			productName = "just-safari-qrcodeTests";
+			productReference = 61E258BC23E6DC2400FB1694 /* just-safari-qrcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61E258C623E6DC2400FB1694 /* just-safari-qrcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E258F323E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeUITests" */;
+			buildPhases = (
+				61E258C323E6DC2400FB1694 /* Sources */,
+				61E258C423E6DC2400FB1694 /* Frameworks */,
+				61E258C523E6DC2400FB1694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E258C923E6DC2400FB1694 /* PBXTargetDependency */,
+			);
+			name = "just-safari-qrcodeUITests";
+			productName = "just-safari-qrcodeUITests";
+			productReference = 61E258C723E6DC2400FB1694 /* just-safari-qrcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		61E258D123E6DC2400FB1694 /* just-safari-qrcode Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E258E923E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode Extension" */;
+			buildPhases = (
+				61E258CE23E6DC2400FB1694 /* Sources */,
+				61E258CF23E6DC2400FB1694 /* Frameworks */,
+				61E258D023E6DC2400FB1694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "just-safari-qrcode Extension";
+			productName = "just-safari-qrcode Extension";
+			productReference = 61E258D223E6DC2400FB1694 /* just-safari-qrcode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E258A123E6DC2100FB1694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Sunaiwen;
+				TargetAttributes = {
+					61E258A823E6DC2100FB1694 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					61E258BB23E6DC2400FB1694 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61E258A823E6DC2100FB1694;
+					};
+					61E258C623E6DC2400FB1694 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61E258A823E6DC2100FB1694;
+					};
+					61E258D123E6DC2400FB1694 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 61E258A423E6DC2100FB1694 /* Build configuration list for PBXProject "just-safari-qrcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E258A023E6DC2100FB1694;
+			productRefGroup = 61E258AA23E6DC2100FB1694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E258A823E6DC2100FB1694 /* just-safari-qrcode */,
+				61E258BB23E6DC2400FB1694 /* just-safari-qrcodeTests */,
+				61E258C623E6DC2400FB1694 /* just-safari-qrcodeUITests */,
+				61E258D123E6DC2400FB1694 /* just-safari-qrcode Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E258A723E6DC2100FB1694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258AD23E6DC2100FB1694 /* just_safari_qrcode.entitlements in Resources */,
+				61E258B623E6DC2300FB1694 /* Assets.xcassets in Resources */,
+				61E258B223E6DC2100FB1694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258BA23E6DC2400FB1694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258C523E6DC2400FB1694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258D023E6DC2400FB1694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */,
+				61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */,
+				61E258E323E6DC2400FB1694 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E258A523E6DC2100FB1694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258B423E6DC2100FB1694 /* ViewController.swift in Sources */,
+				61E258AF23E6DC2100FB1694 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258B823E6DC2400FB1694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258C123E6DC2400FB1694 /* just_safari_qrcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258C323E6DC2400FB1694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258CC23E6DC2400FB1694 /* just_safari_qrcodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E258CE23E6DC2400FB1694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E258DD23E6DC2400FB1694 /* SafariExtensionViewController.swift in Sources */,
+				61E258DB23E6DC2400FB1694 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E258BE23E6DC2400FB1694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E258A823E6DC2100FB1694 /* just-safari-qrcode */;
+			targetProxy = 61E258BD23E6DC2400FB1694 /* PBXContainerItemProxy */;
+		};
+		61E258C923E6DC2400FB1694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E258A823E6DC2100FB1694 /* just-safari-qrcode */;
+			targetProxy = 61E258C823E6DC2400FB1694 /* PBXContainerItemProxy */;
+		};
+		61E258D523E6DC2400FB1694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E258D123E6DC2400FB1694 /* just-safari-qrcode Extension */;
+			targetProxy = 61E258D423E6DC2400FB1694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E258B023E6DC2100FB1694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E258B123E6DC2100FB1694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E258DF23E6DC2400FB1694 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61E258E723E6DC2400FB1694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61E258E823E6DC2400FB1694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		61E258EA23E6DC2400FB1694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode Extension/just_safari_qrcode_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "just-safari-qrcode Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcode-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61E258EB23E6DC2400FB1694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode Extension/just_safari_qrcode_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "just-safari-qrcode Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcode-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61E258EE23E6DC2400FB1694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode/just_safari_qrcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "just-safari-qrcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61E258EF23E6DC2400FB1694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode/just_safari_qrcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "just-safari-qrcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61E258F123E6DC2400FB1694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				INFOPLIST_FILE = "just-safari-qrcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/just-safari-qrcode.app/Contents/MacOS/just-safari-qrcode";
+			};
+			name = Debug;
+		};
+		61E258F223E6DC2400FB1694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				INFOPLIST_FILE = "just-safari-qrcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/just-safari-qrcode.app/Contents/MacOS/just-safari-qrcode";
+			};
+			name = Release;
+		};
+		61E258F423E6DC2400FB1694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				INFOPLIST_FILE = "just-safari-qrcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "just-safari-qrcode";
+			};
+			name = Debug;
+		};
+		61E258F523E6DC2400FB1694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NZLU9C9XZ9;
+				INFOPLIST_FILE = "just-safari-qrcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sunaiwen.just-safari-qrcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "just-safari-qrcode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E258A423E6DC2100FB1694 /* Build configuration list for PBXProject "just-safari-qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E258E723E6DC2400FB1694 /* Debug */,
+				61E258E823E6DC2400FB1694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E258E923E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E258EA23E6DC2400FB1694 /* Debug */,
+				61E258EB23E6DC2400FB1694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E258ED23E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E258EE23E6DC2400FB1694 /* Debug */,
+				61E258EF23E6DC2400FB1694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E258F023E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E258F123E6DC2400FB1694 /* Debug */,
+				61E258F223E6DC2400FB1694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E258F323E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E258F423E6DC2400FB1694 /* Debug */,
+				61E258F523E6DC2400FB1694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E258A123E6DC2100FB1694 /* Project object */;
+}
