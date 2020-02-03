@@ -1,0 +1,1319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1320671DA347C2718CF3AE97EA3B6BFF /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6195FF89DAF986D86FB89B7257DAF81F /* QRCodeGenerator.swift */; };
+		1B5A08BD943D49258B4E821FCED8D31B /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B184F7BC713CD4BB7DA5A95AAD0A6C5 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m */; };
+		1DCCDBE04C714896DC02CEF237A57BD4 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6195FF89DAF986D86FB89B7257DAF81F /* QRCodeGenerator.swift */; };
+		4BD7526FA969D07F1EDD6B79710A95DE /* Pods-just-safari-qrcode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AE05D55097413B2640672F3E696436 /* Pods-just-safari-qrcode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F709E724B43CFB8C4A7292A6D9C49E /* Pods-just-safari-qrcodeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85D7CCB5C3BBFF440F87AE30BF8DDA1 /* Pods-just-safari-qrcodeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9C3F2743BE97DE7665D25C6FA2863C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBCA09DEA0C2E28C71494CFA6456CA6 /* AppKit.framework */; };
+		6D9611365275BF22A9A3B95AC25F7AA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */; };
+		703F687F43A23B2D75B11D2518EA9189 /* Pods-just-safari-qrcodeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045161F390E0EC7EAFE3CB1FA9ABA5D8 /* Pods-just-safari-qrcodeTests-dummy.m */; };
+		712D00686B9751B4FB7257FFEF40B658 /* QRCoder-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAAFD5D2F09713B997820CEEC77BDEE /* QRCoder-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D6EA8D24F663DB19D228D6CF038FBF8 /* QRCoder-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB9C3B91ADD285AFFD327BA789493 /* QRCoder-framework-dummy.m */; };
+		7D8A948E255DE6695846A21431D97B0F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */; };
+		9AFFF09923B2B8299B88432CF08A656B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521E216E552EF2D99C651061FE52CA82 /* Foundation.framework */; };
+		9BD9AA217FA20BD9A05AB205405FB9CF /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E7FAEE64A45CDA0AE00940F8107BBC /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3939BB034B7FF902F2C19719850EC6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */; };
+		C8AC1644A71AD414521644B1DEF88BC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */; };
+		CDE32E85CAF1B503D98E472DF54DFF22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */; };
+		DB1C901393DC126FA863CD438394E58A /* Pods-just-safari-qrcode Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE69BC4E691B6D63A2729AC82E516CF /* Pods-just-safari-qrcode Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE0DDBC712B267CAED861E3D63B11081 /* Pods-just-safari-qrcode Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0ECDAAB22943868B7500306259A08 /* Pods-just-safari-qrcode Extension-dummy.m */; };
+		EEA8D2EF7B5766B72E9EC1C85F8758F5 /* Pods-just-safari-qrcode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 964463D487FFB548028EB6302AC4F956 /* Pods-just-safari-qrcode-dummy.m */; };
+		F06B5C548C69D5366BA8CA0241CA0A0B /* QRCoder-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48FAC756F63531FB256C791D9E20977 /* QRCoder-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F813D950765308AAF86672A80F503803 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773A522DB11C0F928D4E0A0EE54D6E74 /* QuartzCore.framework */; };
+		FBBDA02940FD93B11F038B4FEB1EFCB0 /* QRCoder-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E49CB55BC27F6D0FDEC5552ABAE4B000 /* QRCoder-library-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262C82613DB0CC12496DBD9DE74EAC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55700156F96BC8F6B777018D733CC20F;
+			remoteInfo = "QRCoder-framework";
+		};
+		6CFD21751BA034F9429DF0D0CD56A016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11652339953291EB10050BAC7B038898;
+			remoteInfo = "Pods-just-safari-qrcode";
+		};
+		CAB01359BD13A35B40F4E48942DB09A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55700156F96BC8F6B777018D733CC20F;
+			remoteInfo = "QRCoder-framework";
+		};
+		F031A2411B9CA8EF12DA426A9DC6A8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55700156F96BC8F6B777018D733CC20F;
+			remoteInfo = "QRCoder-framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045161F390E0EC7EAFE3CB1FA9ABA5D8 /* Pods-just-safari-qrcodeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-just-safari-qrcodeTests-dummy.m"; sourceTree = "<group>"; };
+		0EE69BC4E691B6D63A2729AC82E516CF /* Pods-just-safari-qrcode Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-just-safari-qrcode Extension-umbrella.h"; sourceTree = "<group>"; };
+		0FC898505B830788562F5D6E8FE22E7C /* QRCoder-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QRCoder-library.modulemap"; path = "../QRCoder-library/QRCoder-library.modulemap"; sourceTree = "<group>"; };
+		1224D1439C01EEBFC7CCECCD3FB8151C /* QRCoder-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCoder-framework-Info.plist"; sourceTree = "<group>"; };
+		1911F14B8242B06AFA9CDA99043212BA /* Pods-just-safari-qrcodeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-just-safari-qrcodeTests.modulemap"; sourceTree = "<group>"; };
+		191846D17429649C00EF7ED91FDDEFEF /* Pods-just-safari-qrcode Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode Extension.release.xcconfig"; sourceTree = "<group>"; };
+		1FBCA09DEA0C2E28C71494CFA6456CA6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		1FCBFB1FDBA1D07671E0A367961046F8 /* Pods-just-safari-qrcode Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-just-safari-qrcode Extension.modulemap"; sourceTree = "<group>"; };
+		24BE0FAD10E670AF40163F879270F73E /* Pods-just-safari-qrcodeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcodeTests-Info.plist"; sourceTree = "<group>"; };
+		36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		37312B9CFAA2F1AF8433BDEEFEA941B2 /* Pods-just-safari-qrcode Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-just-safari-qrcode Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DF0ECDAAB22943868B7500306259A08 /* Pods-just-safari-qrcode Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-just-safari-qrcode Extension-dummy.m"; sourceTree = "<group>"; };
+		521E216E552EF2D99C651061FE52CA82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54DCEDF66E89D0C5EB1A42396577DCF9 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56A7CD00BB55E386C2306F9A66B99450 /* QRCoder-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QRCoder-framework.xcconfig"; sourceTree = "<group>"; };
+		585EA4DFFED80EC7774F702A6CC52C78 /* Pods-just-safari-qrcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode.debug.xcconfig"; sourceTree = "<group>"; };
+		6195FF89DAF986D86FB89B7257DAF81F /* QRCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeGenerator.swift; path = Pod/Classes/QRCodeGenerator.swift; sourceTree = "<group>"; };
+		6454A32FE2EC427A19213CDB07E103E7 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		69AE05D55097413B2640672F3E696436 /* Pods-just-safari-qrcode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-just-safari-qrcode-umbrella.h"; sourceTree = "<group>"; };
+		6B184F7BC713CD4BB7DA5A95AAD0A6C5 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m"; sourceTree = "<group>"; };
+		722ACF9B5D38D89F3B8222FB554F5848 /* QRCoder-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QRCoder-framework.modulemap"; sourceTree = "<group>"; };
+		773A522DB11C0F928D4E0A0EE54D6E74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		77AFB9C3B91ADD285AFFD327BA789493 /* QRCoder-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCoder-framework-dummy.m"; sourceTree = "<group>"; };
+		7C54E04F3BF9BBD520CD17DF4F28614D /* Pods-just-safari-qrcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8CC7A7D19CDE2491087F37D5066A21 /* libQRCoder-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libQRCoder-library.a"; path = "libQRCoder-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C3B72E58BF4F3B0140B32462CA4223 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBCDAE34AE0691794E1D0FAF28384A0 /* Pods-just-safari-qrcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode.release.xcconfig"; sourceTree = "<group>"; };
+		8FC45474B9BE823DD05D2CB239FB3A5F /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-Info.plist"; sourceTree = "<group>"; };
+		95341BCD01B4CE2988D271060AE25F89 /* Pods_just_safari_qrcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_just_safari_qrcodeTests.framework; path = "Pods-just-safari-qrcodeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D36E72AD49DCFDFCD7AF32FA5D9BF2 /* QRCoder-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QRCoder-library-prefix.pch"; path = "../QRCoder-library/QRCoder-library-prefix.pch"; sourceTree = "<group>"; };
+		964463D487FFB548028EB6302AC4F956 /* Pods-just-safari-qrcode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-just-safari-qrcode-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A35AB783ECD3C0585E6B8B1C076A0932 /* QRCoder-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCoder-framework-prefix.pch"; sourceTree = "<group>"; };
+		A48FAC756F63531FB256C791D9E20977 /* QRCoder-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCoder-framework-umbrella.h"; sourceTree = "<group>"; };
+		A4C0285D0800BDDA9EC454A254A62EF7 /* Pods_just_safari_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_just_safari_qrcode.framework; path = "Pods-just-safari-qrcode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AEC5F3AB1A925667A0F8B4AD8C1EBF /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7AAFDBDEFD04706A89B39734A501180 /* QRCoder-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QRCoder-library.xcconfig"; path = "../QRCoder-library/QRCoder-library.xcconfig"; sourceTree = "<group>"; };
+		AA3EAC916B01193A07B105D909949C62 /* Pods-just-safari-qrcodeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcodeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB72C07390F598EADB892BFD446C78A3 /* Pods-just-safari-qrcode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-just-safari-qrcode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B55F3D7870CA481F6EF1B552296E5E62 /* Pods-just-safari-qrcode Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode Extension-Info.plist"; sourceTree = "<group>"; };
+		C81C302683D319CB3FC1CBE7D2AECD22 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8518E8517ED11C8B98D53FE59655445 /* Pods-just-safari-qrcode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-just-safari-qrcode.modulemap"; sourceTree = "<group>"; };
+		D01A6A616F9C87EC08AFA84BA3A0D31A /* Pods-just-safari-qrcodeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-just-safari-qrcodeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1B0F35E4D30EBCB6109C8B6F67FAF85 /* Pods-just-safari-qrcode Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcode Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D85D7CCB5C3BBFF440F87AE30BF8DDA1 /* Pods-just-safari-qrcodeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-just-safari-qrcodeTests-umbrella.h"; sourceTree = "<group>"; };
+		DCDAB954D1C4F285560B50339DFECC07 /* Pods-just-safari-qrcode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode-Info.plist"; sourceTree = "<group>"; };
+		E31E3E4697E72FD565AD74A13AA3F5C7 /* Pods-just-safari-qrcodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-just-safari-qrcodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E49CB55BC27F6D0FDEC5552ABAE4B000 /* QRCoder-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QRCoder-library-dummy.m"; path = "../QRCoder-library/QRCoder-library-dummy.m"; sourceTree = "<group>"; };
+		E56126D4677D9CBCC440A0033BA3B0FB /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.modulemap"; sourceTree = "<group>"; };
+		E5E7FAEE64A45CDA0AE00940F8107BBC /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h"; sourceTree = "<group>"; };
+		E726DD22C0843D0209CD967E73D36D5E /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E842516A5ACC5FDE662E70FBBB2AD878 /* Pods-just-safari-qrcode Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8C053DBE1EF4948F458C4ECE4FA3E3A /* Pods_just_safari_qrcode_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_just_safari_qrcode_Extension.framework; path = "Pods-just-safari-qrcode Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA1E2A3F8DE7FE1825DBC794E92F802 /* QRCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCoder.framework; path = "QRCoder-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1C2209386FA7EB516257F39BB61313 /* Pods-just-safari-qrcode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-just-safari-qrcode-acknowledgements.plist"; sourceTree = "<group>"; };
+		F363A5E1FFF0954B2162ACEEE25FECBF /* Pods-just-safari-qrcode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-just-safari-qrcode-frameworks.sh"; sourceTree = "<group>"; };
+		FEAAFD5D2F09713B997820CEEC77BDEE /* QRCoder-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QRCoder-library-umbrella.h"; path = "../QRCoder-library/QRCoder-library-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2205821DEBA5C6136E5499FAAA534313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE3A0CEC91EE79E3C2B18C6CFA71AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3939BB034B7FF902F2C19719850EC6D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331BFC88A0A3EEA684B87508D599AFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9611365275BF22A9A3B95AC25F7AA0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FE84561465F0402AC6F765AF2BADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9C3F2743BE97DE7665D25C6FA2863C /* AppKit.framework in Frameworks */,
+				7D8A948E255DE6695846A21431D97B0F /* Cocoa.framework in Frameworks */,
+				9AFFF09923B2B8299B88432CF08A656B /* Foundation.framework in Frameworks */,
+				F813D950765308AAF86672A80F503803 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506265D03083AB3A94A5A5E1BA3D35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AC1644A71AD414521644B1DEF88BC1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F82E7D57A79074ADDF0813845020BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE32E85CAF1B503D98E472DF54DFF22 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C828656143E8A0A19EB0BFE5F73F331 /* Pods-just-safari-qrcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1911F14B8242B06AFA9CDA99043212BA /* Pods-just-safari-qrcodeTests.modulemap */,
+				D01A6A616F9C87EC08AFA84BA3A0D31A /* Pods-just-safari-qrcodeTests-acknowledgements.markdown */,
+				AA3EAC916B01193A07B105D909949C62 /* Pods-just-safari-qrcodeTests-acknowledgements.plist */,
+				045161F390E0EC7EAFE3CB1FA9ABA5D8 /* Pods-just-safari-qrcodeTests-dummy.m */,
+				24BE0FAD10E670AF40163F879270F73E /* Pods-just-safari-qrcodeTests-Info.plist */,
+				D85D7CCB5C3BBFF440F87AE30BF8DDA1 /* Pods-just-safari-qrcodeTests-umbrella.h */,
+				7C54E04F3BF9BBD520CD17DF4F28614D /* Pods-just-safari-qrcodeTests.debug.xcconfig */,
+				E31E3E4697E72FD565AD74A13AA3F5C7 /* Pods-just-safari-qrcodeTests.release.xcconfig */,
+			);
+			name = "Pods-just-safari-qrcodeTests";
+			path = "Target Support Files/Pods-just-safari-qrcodeTests";
+			sourceTree = "<group>";
+		};
+		37C33A6E92EEC368D5067C338E768291 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCA09DEA0C2E28C71494CFA6456CA6 /* AppKit.framework */,
+				36F2B1D3A4AF480C317C1DF5124FD450 /* Cocoa.framework */,
+				521E216E552EF2D99C651061FE52CA82 /* Foundation.framework */,
+				773A522DB11C0F928D4E0A0EE54D6E74 /* QuartzCore.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4982CE755617BCF84D7F1FEC5031766D /* QRCoder */ = {
+			isa = PBXGroup;
+			children = (
+				6195FF89DAF986D86FB89B7257DAF81F /* QRCodeGenerator.swift */,
+				6446D10CB12F59833FA0E7A528975627 /* Support Files */,
+			);
+			name = QRCoder;
+			path = QRCoder;
+			sourceTree = "<group>";
+		};
+		625F94834E3EF8BE93B0FC722D2DCB33 /* Pods-just-safari-qrcode Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBFB1FDBA1D07671E0A367961046F8 /* Pods-just-safari-qrcode Extension.modulemap */,
+				37312B9CFAA2F1AF8433BDEEFEA941B2 /* Pods-just-safari-qrcode Extension-acknowledgements.markdown */,
+				E842516A5ACC5FDE662E70FBBB2AD878 /* Pods-just-safari-qrcode Extension-acknowledgements.plist */,
+				4DF0ECDAAB22943868B7500306259A08 /* Pods-just-safari-qrcode Extension-dummy.m */,
+				B55F3D7870CA481F6EF1B552296E5E62 /* Pods-just-safari-qrcode Extension-Info.plist */,
+				0EE69BC4E691B6D63A2729AC82E516CF /* Pods-just-safari-qrcode Extension-umbrella.h */,
+				D1B0F35E4D30EBCB6109C8B6F67FAF85 /* Pods-just-safari-qrcode Extension.debug.xcconfig */,
+				191846D17429649C00EF7ED91FDDEFEF /* Pods-just-safari-qrcode Extension.release.xcconfig */,
+			);
+			name = "Pods-just-safari-qrcode Extension";
+			path = "Target Support Files/Pods-just-safari-qrcode Extension";
+			sourceTree = "<group>";
+		};
+		62DB906D4E25C948BB1F9C6E5E84B311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4982CE755617BCF84D7F1FEC5031766D /* QRCoder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6446D10CB12F59833FA0E7A528975627 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722ACF9B5D38D89F3B8222FB554F5848 /* QRCoder-framework.modulemap */,
+				56A7CD00BB55E386C2306F9A66B99450 /* QRCoder-framework.xcconfig */,
+				77AFB9C3B91ADD285AFFD327BA789493 /* QRCoder-framework-dummy.m */,
+				1224D1439C01EEBFC7CCECCD3FB8151C /* QRCoder-framework-Info.plist */,
+				A35AB783ECD3C0585E6B8B1C076A0932 /* QRCoder-framework-prefix.pch */,
+				A48FAC756F63531FB256C791D9E20977 /* QRCoder-framework-umbrella.h */,
+				0FC898505B830788562F5D6E8FE22E7C /* QRCoder-library.modulemap */,
+				A7AAFDBDEFD04706A89B39734A501180 /* QRCoder-library.xcconfig */,
+				E49CB55BC27F6D0FDEC5552ABAE4B000 /* QRCoder-library-dummy.m */,
+				95D36E72AD49DCFDFCD7AF32FA5D9BF2 /* QRCoder-library-prefix.pch */,
+				FEAAFD5D2F09713B997820CEEC77BDEE /* QRCoder-library-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCoder-framework";
+			sourceTree = "<group>";
+		};
+		73A99E82D66106BA0461B15EBC0BBF3B /* Pods-just-safari-qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				C8518E8517ED11C8B98D53FE59655445 /* Pods-just-safari-qrcode.modulemap */,
+				AB72C07390F598EADB892BFD446C78A3 /* Pods-just-safari-qrcode-acknowledgements.markdown */,
+				EB1C2209386FA7EB516257F39BB61313 /* Pods-just-safari-qrcode-acknowledgements.plist */,
+				964463D487FFB548028EB6302AC4F956 /* Pods-just-safari-qrcode-dummy.m */,
+				F363A5E1FFF0954B2162ACEEE25FECBF /* Pods-just-safari-qrcode-frameworks.sh */,
+				DCDAB954D1C4F285560B50339DFECC07 /* Pods-just-safari-qrcode-Info.plist */,
+				69AE05D55097413B2640672F3E696436 /* Pods-just-safari-qrcode-umbrella.h */,
+				585EA4DFFED80EC7774F702A6CC52C78 /* Pods-just-safari-qrcode.debug.xcconfig */,
+				8BBCDAE34AE0691794E1D0FAF28384A0 /* Pods-just-safari-qrcode.release.xcconfig */,
+			);
+			name = "Pods-just-safari-qrcode";
+			path = "Target Support Files/Pods-just-safari-qrcode";
+			sourceTree = "<group>";
+		};
+		8D0988DDFD00FC9C3539F375F75990FD /* Pods-just-safari-qrcode-just-safari-qrcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E56126D4677D9CBCC440A0033BA3B0FB /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.modulemap */,
+				A5AEC5F3AB1A925667A0F8B4AD8C1EBF /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.markdown */,
+				E726DD22C0843D0209CD967E73D36D5E /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-acknowledgements.plist */,
+				6B184F7BC713CD4BB7DA5A95AAD0A6C5 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m */,
+				6454A32FE2EC427A19213CDB07E103E7 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks.sh */,
+				8FC45474B9BE823DD05D2CB239FB3A5F /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-Info.plist */,
+				E5E7FAEE64A45CDA0AE00940F8107BBC /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h */,
+				C81C302683D319CB3FC1CBE7D2AECD22 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */,
+				54DCEDF66E89D0C5EB1A42396577DCF9 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */,
+			);
+			name = "Pods-just-safari-qrcode-just-safari-qrcodeUITests";
+			path = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests";
+			sourceTree = "<group>";
+		};
+		B09EC76CCD28B4705D0B566E742742E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8CC7A7D19CDE2491087F37D5066A21 /* libQRCoder-library.a */,
+				A4C0285D0800BDDA9EC454A254A62EF7 /* Pods_just_safari_qrcode.framework */,
+				E8C053DBE1EF4948F458C4ECE4FA3E3A /* Pods_just_safari_qrcode_Extension.framework */,
+				86C3B72E58BF4F3B0140B32462CA4223 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */,
+				95341BCD01B4CE2988D271060AE25F89 /* Pods_just_safari_qrcodeTests.framework */,
+				EAA1E2A3F8DE7FE1825DBC794E92F802 /* QRCoder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10ED30F8439DB4083997160C19F176C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A99E82D66106BA0461B15EBC0BBF3B /* Pods-just-safari-qrcode */,
+				625F94834E3EF8BE93B0FC722D2DCB33 /* Pods-just-safari-qrcode Extension */,
+				8D0988DDFD00FC9C3539F375F75990FD /* Pods-just-safari-qrcode-just-safari-qrcodeUITests */,
+				2C828656143E8A0A19EB0BFE5F73F331 /* Pods-just-safari-qrcodeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CACE1D58B90C8B9C52757B827DFE6BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37C33A6E92EEC368D5067C338E768291 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CACE1D58B90C8B9C52757B827DFE6BF4 /* Frameworks */,
+				62DB906D4E25C948BB1F9C6E5E84B311 /* Pods */,
+				B09EC76CCD28B4705D0B566E742742E1 /* Products */,
+				B10ED30F8439DB4083997160C19F176C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18B28EEAC3374BA333FD7532E99D415F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD7526FA969D07F1EDD6B79710A95DE /* Pods-just-safari-qrcode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C34223261E2AF8160B718986D6864D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712D00686B9751B4FB7257FFEF40B658 /* QRCoder-library-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E28B7F45B90A04698182A3CB88BA49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B5C548C69D5366BA8CA0241CA0A0B /* QRCoder-framework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C4DB700BD88A5FC1C07DDA247D7665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F709E724B43CFB8C4A7292A6D9C49E /* Pods-just-safari-qrcodeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D7BCA0C652DEB189E1F37EB2D6335D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1C901393DC126FA863CD438394E58A /* Pods-just-safari-qrcode Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1F720FB5D87202E810C7BF2BEC5AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD9AA217FA20BD9A05AB205405FB9CF /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11652339953291EB10050BAC7B038898 /* Pods-just-safari-qrcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FABB892C0EAE9D9010645698B0B0AA /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode" */;
+			buildPhases = (
+				18B28EEAC3374BA333FD7532E99D415F /* Headers */,
+				B64248F6336645704D1AA112FF92DA26 /* Sources */,
+				3506265D03083AB3A94A5A5E1BA3D35A /* Frameworks */,
+				AB323001C810B2CABE4B48C4875725E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE751DC5D43FB08C782D2EA2979FB764 /* PBXTargetDependency */,
+			);
+			name = "Pods-just-safari-qrcode";
+			productName = "Pods-just-safari-qrcode";
+			productReference = A4C0285D0800BDDA9EC454A254A62EF7 /* Pods_just_safari_qrcode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21716B757341AB40CE6D940D66D139DD /* QRCoder-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4815D42DA895C2444098B73B8697D6 /* Build configuration list for PBXNativeTarget "QRCoder-library" */;
+			buildPhases = (
+				1C34223261E2AF8160B718986D6864D4 /* Headers */,
+				A652C821799E869F18CE4BB5F6E93B7E /* Sources */,
+				2205821DEBA5C6136E5499FAAA534313 /* Frameworks */,
+				E625625BBF4AE48A4C75F13B8F09277B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QRCoder-library";
+			productName = "QRCoder-library";
+			productReference = 7F8CC7A7D19CDE2491087F37D5066A21 /* libQRCoder-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42331DADB61A1B0DC2C649151ED89F09 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF46CFA29064F673E3ABB76EB41810 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode-just-safari-qrcodeUITests" */;
+			buildPhases = (
+				FFF1F720FB5D87202E810C7BF2BEC5AE /* Headers */,
+				C8F509B5DB3FC04D6BAF5AA150E2C2C4 /* Sources */,
+				8F82E7D57A79074ADDF0813845020BDF /* Frameworks */,
+				3043B003F56C14CF19BD3BC810B36E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FEF3F6B93DEA18D63D2D213270F7C5E /* PBXTargetDependency */,
+			);
+			name = "Pods-just-safari-qrcode-just-safari-qrcodeUITests";
+			productName = "Pods-just-safari-qrcode-just-safari-qrcodeUITests";
+			productReference = 86C3B72E58BF4F3B0140B32462CA4223 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		529482FEB31B95570F79A31F8553DADD /* Pods-just-safari-qrcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409D94C893E6624F81B45B121DBB6815 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcodeTests" */;
+			buildPhases = (
+				B0C4DB700BD88A5FC1C07DDA247D7665 /* Headers */,
+				D00FE45447495517DE57C05AECE482DF /* Sources */,
+				331BFC88A0A3EEA684B87508D599AFA2 /* Frameworks */,
+				9287D69814FA89DA77F5C70302670201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD49C06DC2838A366FAC30F8F4577DA /* PBXTargetDependency */,
+			);
+			name = "Pods-just-safari-qrcodeTests";
+			productName = "Pods-just-safari-qrcodeTests";
+			productReference = 95341BCD01B4CE2988D271060AE25F89 /* Pods_just_safari_qrcodeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55700156F96BC8F6B777018D733CC20F /* QRCoder-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA53198DAEC9133201654D17E170B557 /* Build configuration list for PBXNativeTarget "QRCoder-framework" */;
+			buildPhases = (
+				24E28B7F45B90A04698182A3CB88BA49 /* Headers */,
+				F1B4D78464C0357D7ED56A83E32C28E4 /* Sources */,
+				34FE84561465F0402AC6F765AF2BADEB /* Frameworks */,
+				5BFB5E008EB66AFB04C3D7C205162CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QRCoder-framework";
+			productName = "QRCoder-framework";
+			productReference = EAA1E2A3F8DE7FE1825DBC794E92F802 /* QRCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCBA48E77B350A392F8CFD2D32FDDA75 /* Pods-just-safari-qrcode Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB233D4FD1B6CDC680F137DBBF1DA2 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode Extension" */;
+			buildPhases = (
+				C3D7BCA0C652DEB189E1F37EB2D6335D /* Headers */,
+				294F81DD5FADFB0B3CFC9732B8C55CEC /* Sources */,
+				32BE3A0CEC91EE79E3C2B18C6CFA71AD /* Frameworks */,
+				060D5E83043FFB1933D63741A4FB6FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF11F49095BD68E34BEE290631ADA26 /* PBXTargetDependency */,
+			);
+			name = "Pods-just-safari-qrcode Extension";
+			productName = "Pods-just-safari-qrcode Extension";
+			productReference = E8C053DBE1EF4948F458C4ECE4FA3E3A /* Pods_just_safari_qrcode_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B09EC76CCD28B4705D0B566E742742E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11652339953291EB10050BAC7B038898 /* Pods-just-safari-qrcode */,
+				CCBA48E77B350A392F8CFD2D32FDDA75 /* Pods-just-safari-qrcode Extension */,
+				42331DADB61A1B0DC2C649151ED89F09 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests */,
+				529482FEB31B95570F79A31F8553DADD /* Pods-just-safari-qrcodeTests */,
+				55700156F96BC8F6B777018D733CC20F /* QRCoder-framework */,
+				21716B757341AB40CE6D940D66D139DD /* QRCoder-library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060D5E83043FFB1933D63741A4FB6FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3043B003F56C14CF19BD3BC810B36E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFB5E008EB66AFB04C3D7C205162CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9287D69814FA89DA77F5C70302670201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323001C810B2CABE4B48C4875725E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E625625BBF4AE48A4C75F13B8F09277B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/QRCoder/QRCoder-library.modulemap",
+				"${PODS_ROOT}/Headers/Public/QRCoder/QRCoder-library-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/QRCoder-library-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QRCoder/QRCoder-library.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QRCoder/QRCoder-library-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294F81DD5FADFB0B3CFC9732B8C55CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DDBC712B267CAED861E3D63B11081 /* Pods-just-safari-qrcode Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A652C821799E869F18CE4BB5F6E93B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCCDBE04C714896DC02CEF237A57BD4 /* QRCodeGenerator.swift in Sources */,
+				FBBDA02940FD93B11F038B4FEB1EFCB0 /* QRCoder-library-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64248F6336645704D1AA112FF92DA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA8D2EF7B5766B72E9EC1C85F8758F5 /* Pods-just-safari-qrcode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F509B5DB3FC04D6BAF5AA150E2C2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5A08BD943D49258B4E821FCED8D31B /* Pods-just-safari-qrcode-just-safari-qrcodeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00FE45447495517DE57C05AECE482DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703F687F43A23B2D75B11D2518EA9189 /* Pods-just-safari-qrcodeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B4D78464C0357D7ED56A83E32C28E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1320671DA347C2718CF3AE97EA3B6BFF /* QRCodeGenerator.swift in Sources */,
+				7D6EA8D24F663DB19D228D6CF038FBF8 /* QRCoder-framework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF11F49095BD68E34BEE290631ADA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QRCoder-framework";
+			target = 55700156F96BC8F6B777018D733CC20F /* QRCoder-framework */;
+			targetProxy = CAB01359BD13A35B40F4E48942DB09A9 /* PBXContainerItemProxy */;
+		};
+		2AD49C06DC2838A366FAC30F8F4577DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-just-safari-qrcode";
+			target = 11652339953291EB10050BAC7B038898 /* Pods-just-safari-qrcode */;
+			targetProxy = 6CFD21751BA034F9429DF0D0CD56A016 /* PBXContainerItemProxy */;
+		};
+		6FEF3F6B93DEA18D63D2D213270F7C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QRCoder-framework";
+			target = 55700156F96BC8F6B777018D733CC20F /* QRCoder-framework */;
+			targetProxy = F031A2411B9CA8EF12DA426A9DC6A8F0 /* PBXContainerItemProxy */;
+		};
+		BE751DC5D43FB08C782D2EA2979FB764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QRCoder-framework";
+			target = 55700156F96BC8F6B777018D733CC20F /* QRCoder-framework */;
+			targetProxy = 262C82613DB0CC12496DBD9DE74EAC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20400647B7FA654CE62186ADFB94496F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A7CD00BB55E386C2306F9A66B99450 /* QRCoder-framework.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/QRCoder-framework/QRCoder-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCoder-framework/QRCoder-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/QRCoder-framework/QRCoder-framework.modulemap";
+				PRODUCT_MODULE_NAME = QRCoder;
+				PRODUCT_NAME = QRCoder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AE0D8B39827576460938522CAB2F560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		352A1B4B883C275A03803EA21C8CC907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C54E04F3BF9BBD520CD17DF4F28614D /* Pods-just-safari-qrcodeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DAF792366921F907014E7E9251224F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191846D17429649C00EF7ED91FDDEFEF /* Pods-just-safari-qrcode Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41FDE3F7E8E46C5BE379895D1659C507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B0F35E4D30EBCB6109C8B6F67FAF85 /* Pods-just-safari-qrcode Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B5695E57981C0FC757B4D5FD1082D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E3E4697E72FD565AD74A13AA3F5C7 /* Pods-just-safari-qrcodeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68F7B3861C184A67FDB1B2DD2811DFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBCDAE34AE0691794E1D0FAF28384A0 /* Pods-just-safari-qrcode.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B70F146F1EC12FD340857D41F7C6840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81C302683D319CB3FC1CBE7D2AECD22 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		816C679D58750316935F7386A438309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84D3EE35C3E83D824665C6D1F52526D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DCEDF66E89D0C5EB1A42396577DCF9 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE29CE97017F82B3CA9398B83414B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AAFDBDEFD04706A89B39734A501180 /* QRCoder-library.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/QRCoder-library/QRCoder-library-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Headers/Public/QRCoder/QRCoder-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCoder;
+				PRODUCT_NAME = "QRCoder-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+			};
+			name = Release;
+		};
+		91A6DD4CD1A5809BBC34E5DFC2FB397B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A7CD00BB55E386C2306F9A66B99450 /* QRCoder-framework.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/QRCoder-framework/QRCoder-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCoder-framework/QRCoder-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/QRCoder-framework/QRCoder-framework.modulemap";
+				PRODUCT_MODULE_NAME = QRCoder;
+				PRODUCT_NAME = QRCoder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		965985A7D10C721B2388206B79D79812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585EA4DFFED80EC7774F702A6CC52C78 /* Pods-just-safari-qrcode.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B848D7E17D715D77A2975D8B56C2CB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AAFDBDEFD04706A89B39734A501180 /* QRCoder-library.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/QRCoder-library/QRCoder-library-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Headers/Public/QRCoder/QRCoder-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCoder;
+				PRODUCT_NAME = "QRCoder-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409D94C893E6624F81B45B121DBB6815 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352A1B4B883C275A03803EA21C8CC907 /* Debug */,
+				67B5695E57981C0FC757B4D5FD1082D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816C679D58750316935F7386A438309D /* Debug */,
+				2AE0D8B39827576460938522CAB2F560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF46CFA29064F673E3ABB76EB41810 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode-just-safari-qrcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70F146F1EC12FD340857D41F7C6840 /* Debug */,
+				84D3EE35C3E83D824665C6D1F52526D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4815D42DA895C2444098B73B8697D6 /* Build configuration list for PBXNativeTarget "QRCoder-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B848D7E17D715D77A2975D8B56C2CB9B /* Debug */,
+				8CE29CE97017F82B3CA9398B83414B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FABB892C0EAE9D9010645698B0B0AA /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965985A7D10C721B2388206B79D79812 /* Debug */,
+				68F7B3861C184A67FDB1B2DD2811DFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA53198DAEC9133201654D17E170B557 /* Build configuration list for PBXNativeTarget "QRCoder-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20400647B7FA654CE62186ADFB94496F /* Debug */,
+				91A6DD4CD1A5809BBC34E5DFC2FB397B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEB233D4FD1B6CDC680F137DBBF1DA2 /* Build configuration list for PBXNativeTarget "Pods-just-safari-qrcode Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FDE3F7E8E46C5BE379895D1659C507 /* Debug */,
+				3DAF792366921F907014E7E9251224F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_just_safari_qrcode_just_safari_qrcodeUITests {
+  umbrella header "Pods-just-safari-qrcode-just-safari-qrcodeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

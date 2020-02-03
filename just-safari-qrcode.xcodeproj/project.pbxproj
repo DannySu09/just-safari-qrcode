@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,11 @@
 		61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */; };
 		61E258E323E6DC2400FB1694 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E223E6DC2400FB1694 /* script.js */; };
 		61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */; };
+		61E258F923E81C7B00FB1694 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 61E258F823E81C7B00FB1694 /* Podfile */; };
+		BF03EC1321F4F80D44FD3761 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF29AB946DB7E7B44C34D06 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */; };
+		CABD366C7D93F1C584E3A4AF /* Pods_just_safari_qrcode_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81824A87297A39EAE00EDB72 /* Pods_just_safari_qrcode_Extension.framework */; };
+		D1007C383B547B57FF4AFB0E /* Pods_just_safari_qrcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E5C2D10EAFA4EEFD4DA171 /* Pods_just_safari_qrcode.framework */; };
+		DB9B006F15456AE8D164F6C9 /* Pods_just_safari_qrcodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7154CD9F8D3D5B905ABD78E /* Pods_just_safari_qrcodeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04913960DD7AF744EAE487A1 /* Pods-just-safari-qrcodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcodeTests.release.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		107975DE5B388D44468108A1 /* Pods-just-safari-qrcode Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode Extension.debug.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		16D2BD93ED18A8719A9B429F /* Pods-just-safari-qrcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode.debug.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF29AB946DB7E7B44C34D06 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE36FF8132D9C5E7F81612D /* Pods-just-safari-qrcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcodeTests/Pods-just-safari-qrcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		61E258A923E6DC2100FB1694 /* just-safari-qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "just-safari-qrcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E258AC23E6DC2100FB1694 /* just_safari_qrcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = just_safari_qrcode.entitlements; sourceTree = "<group>"; };
 		61E258AE23E6DC2100FB1694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +94,14 @@
 		61E258E223E6DC2400FB1694 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		61E258E623E6DC2400FB1694 /* just_safari_qrcode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = just_safari_qrcode_Extension.entitlements; sourceTree = "<group>"; };
+		61E258F823E81C7B00FB1694 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61E5C2D10EAFA4EEFD4DA171 /* Pods_just_safari_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81824A87297A39EAE00EDB72 /* Pods_just_safari_qrcode_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcode_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AC2799CD6F99DEC8830035 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B75A950E6B38E15DD778A98 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8F8A50687D24D742F8F8F67 /* Pods-just-safari-qrcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode.release.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode.release.xcconfig"; sourceTree = "<group>"; };
+		E20CE94D8B3E3981D8F8C97B /* Pods-just-safari-qrcode Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode Extension.release.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode Extension/Pods-just-safari-qrcode Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E7154CD9F8D3D5B905ABD78E /* Pods_just_safari_qrcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1007C383B547B57FF4AFB0E /* Pods_just_safari_qrcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9B006F15456AE8D164F6C9 /* Pods_just_safari_qrcodeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF03EC1321F4F80D44FD3761 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +134,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				61E258D823E6DC2400FB1694 /* Cocoa.framework in Frameworks */,
+				CABD366C7D93F1C584E3A4AF /* Pods_just_safari_qrcode_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB5B7C6B3F8DFF3166A3981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16D2BD93ED18A8719A9B429F /* Pods-just-safari-qrcode.debug.xcconfig */,
+				C8F8A50687D24D742F8F8F67 /* Pods-just-safari-qrcode.release.xcconfig */,
+				107975DE5B388D44468108A1 /* Pods-just-safari-qrcode Extension.debug.xcconfig */,
+				E20CE94D8B3E3981D8F8C97B /* Pods-just-safari-qrcode Extension.release.xcconfig */,
+				81AC2799CD6F99DEC8830035 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */,
+				8B75A950E6B38E15DD778A98 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */,
+				5BE36FF8132D9C5E7F81612D /* Pods-just-safari-qrcodeTests.debug.xcconfig */,
+				04913960DD7AF744EAE487A1 /* Pods-just-safari-qrcodeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		61E258A023E6DC2100FB1694 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +165,8 @@
 				61E258D923E6DC2400FB1694 /* just-safari-qrcode Extension */,
 				61E258D623E6DC2400FB1694 /* Frameworks */,
 				61E258AA23E6DC2100FB1694 /* Products */,
+				61E258F823E81C7B00FB1694 /* Podfile */,
+				3AB5B7C6B3F8DFF3166A3981 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +216,10 @@
 			isa = PBXGroup;
 			children = (
 				61E258D723E6DC2400FB1694 /* Cocoa.framework */,
+				61E5C2D10EAFA4EEFD4DA171 /* Pods_just_safari_qrcode.framework */,
+				81824A87297A39EAE00EDB72 /* Pods_just_safari_qrcode_Extension.framework */,
+				1EF29AB946DB7E7B44C34D06 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */,
+				E7154CD9F8D3D5B905ABD78E /* Pods_just_safari_qrcodeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E258ED23E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode" */;
 			buildPhases = (
+				9E0B8317BD7504E0B075438D /* [CP] Check Pods Manifest.lock */,
 				61E258A523E6DC2100FB1694 /* Sources */,
 				61E258A623E6DC2100FB1694 /* Frameworks */,
 				61E258A723E6DC2100FB1694 /* Resources */,
 				61E258EC23E6DC2400FB1694 /* Embed App Extensions */,
+				78BC9F60C9A31FA4C8416A98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E258F023E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeTests" */;
 			buildPhases = (
+				33FA23F268897B6D9E385F11 /* [CP] Check Pods Manifest.lock */,
 				61E258B823E6DC2400FB1694 /* Sources */,
 				61E258B923E6DC2400FB1694 /* Frameworks */,
 				61E258BA23E6DC2400FB1694 /* Resources */,
@@ -239,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E258F323E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcodeUITests" */;
 			buildPhases = (
+				1957F659F3FDAA2D5D6EA011 /* [CP] Check Pods Manifest.lock */,
 				61E258C323E6DC2400FB1694 /* Sources */,
 				61E258C423E6DC2400FB1694 /* Frameworks */,
 				61E258C523E6DC2400FB1694 /* Resources */,
+				A430209EBADC702DF1A75596 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E258E923E6DC2400FB1694 /* Build configuration list for PBXNativeTarget "just-safari-qrcode Extension" */;
 			buildPhases = (
+				0CBEAE1B9ADEB0DE145EF91A /* [CP] Check Pods Manifest.lock */,
 				61E258CE23E6DC2400FB1694 /* Sources */,
 				61E258CF23E6DC2400FB1694 /* Frameworks */,
 				61E258D023E6DC2400FB1694 /* Resources */,
@@ -348,11 +397,137 @@
 			files = (
 				61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */,
 				61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */,
+				61E258F923E81C7B00FB1694 /* Podfile in Resources */,
 				61E258E323E6DC2400FB1694 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CBEAE1B9ADEB0DE145EF91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-just-safari-qrcode Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1957F659F3FDAA2D5D6EA011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-just-safari-qrcode-just-safari-qrcodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33FA23F268897B6D9E385F11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-just-safari-qrcodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BC9F60C9A31FA4C8416A98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode/Pods-just-safari-qrcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0B8317BD7504E0B075438D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-just-safari-qrcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A430209EBADC702DF1A75596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61E258A523E6DC2100FB1694 /* Sources */ = {
@@ -544,6 +719,7 @@
 		};
 		61E258EA23E6DC2400FB1694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107975DE5B388D44468108A1 /* Pods-just-safari-qrcode Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode Extension/just_safari_qrcode_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +740,7 @@
 		};
 		61E258EB23E6DC2400FB1694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20CE94D8B3E3981D8F8C97B /* Pods-just-safari-qrcode Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode Extension/just_safari_qrcode_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -584,8 +761,8 @@
 		};
 		61E258EE23E6DC2400FB1694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D2BD93ED18A8719A9B429F /* Pods-just-safari-qrcode.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode/just_safari_qrcode.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -605,8 +782,8 @@
 		};
 		61E258EF23E6DC2400FB1694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F8A50687D24D742F8F8F67 /* Pods-just-safari-qrcode.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "just-safari-qrcode/just_safari_qrcode.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -626,8 +803,8 @@
 		};
 		61E258F123E6DC2400FB1694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE36FF8132D9C5E7F81612D /* Pods-just-safari-qrcodeTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -648,8 +825,8 @@
 		};
 		61E258F223E6DC2400FB1694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04913960DD7AF744EAE487A1 /* Pods-just-safari-qrcodeTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -670,8 +847,8 @@
 		};
 		61E258F423E6DC2400FB1694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AC2799CD6F99DEC8830035 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NZLU9C9XZ9;
@@ -690,8 +867,8 @@
 		};
 		61E258F523E6DC2400FB1694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B75A950E6B38E15DD778A98 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NZLU9C9XZ9;

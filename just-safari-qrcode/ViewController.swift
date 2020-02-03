@@ -10,12 +10,19 @@ import Cocoa
 import SafariServices.SFSafariApplication
 
 class ViewController: NSViewController {
-
-    @IBOutlet var appNameLabel: NSTextField!
+    @IBOutlet weak var colorSelect: NSPopUpButton!
+    @IBOutlet weak var colorLabel: NSTextField!
     
+    var selectedColor: String?
+    
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        initColorSelect()
+        colorLabel.stringValue = "Color Highlight"
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "just-safari-qrcode";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
@@ -25,6 +32,18 @@ class ViewController: NSViewController {
 
             }
         }
+    }
+    
+    @IBAction func handleColorSelect(_ sender: Any?) {
+        if let selected = colorSelect.titleOfSelectedItem {
+            selectedColor = selected
+        }
+    }
+    
+    func initColorSelect() {
+        colorSelect.removeAllItems()
+        colorSelect.addItem(withTitle: "blue")
+        colorSelect.addItem(withTitle: "black")
     }
 
 }

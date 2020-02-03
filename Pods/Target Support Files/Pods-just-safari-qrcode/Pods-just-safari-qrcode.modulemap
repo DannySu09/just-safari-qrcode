@@ -1,0 +1,6 @@
+framework module Pods_just_safari_qrcode {
+  umbrella header "Pods-just-safari-qrcode-umbrella.h"
+
+  export *
+  module * { export * }
+}
