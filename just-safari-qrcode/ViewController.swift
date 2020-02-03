@@ -10,16 +10,7 @@ import Cocoa
 import SafariServices.SFSafariApplication
 
 class ViewController: NSViewController {
-    @IBOutlet weak var colorSelect: NSPopUpButton!
-    @IBOutlet weak var colorLabel: NSTextField!
-    
     var selectedColor: String?
-    
-    override func viewWillAppear() {
-        super.viewWillAppear()
-        initColorSelect()
-        colorLabel.stringValue = "Color Highlight"
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,17 +24,4 @@ class ViewController: NSViewController {
             }
         }
     }
-    
-    @IBAction func handleColorSelect(_ sender: Any?) {
-        if let selected = colorSelect.titleOfSelectedItem {
-            selectedColor = selected
-        }
-    }
-    
-    func initColorSelect() {
-        colorSelect.removeAllItems()
-        colorSelect.addItem(withTitle: "blue")
-        colorSelect.addItem(withTitle: "black")
-    }
-
 }
