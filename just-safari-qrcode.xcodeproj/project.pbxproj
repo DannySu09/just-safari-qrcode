@@ -20,8 +20,8 @@
 		61E258DD23E6DC2400FB1694 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E258DC23E6DC2400FB1694 /* SafariExtensionViewController.swift */; };
 		61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */; };
 		61E258E323E6DC2400FB1694 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E223E6DC2400FB1694 /* script.js */; };
-		61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */; };
 		61E258F923E81C7B00FB1694 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 61E258F823E81C7B00FB1694 /* Podfile */; };
+		61E258FB23E8286400FB1694 /* icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 61E258FA23E8286400FB1694 /* icon.pdf */; };
 		BF03EC1321F4F80D44FD3761 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF29AB946DB7E7B44C34D06 /* Pods_just_safari_qrcode_just_safari_qrcodeUITests.framework */; };
 		CABD366C7D93F1C584E3A4AF /* Pods_just_safari_qrcode_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81824A87297A39EAE00EDB72 /* Pods_just_safari_qrcode_Extension.framework */; };
 		D1007C383B547B57FF4AFB0E /* Pods_just_safari_qrcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E5C2D10EAFA4EEFD4DA171 /* Pods_just_safari_qrcode.framework */; };
@@ -92,9 +92,9 @@
 		61E258DF23E6DC2400FB1694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		61E258E123E6DC2400FB1694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E258E223E6DC2400FB1694 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		61E258E623E6DC2400FB1694 /* just_safari_qrcode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = just_safari_qrcode_Extension.entitlements; sourceTree = "<group>"; };
 		61E258F823E81C7B00FB1694 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61E258FA23E8286400FB1694 /* icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon.pdf; sourceTree = "<group>"; };
 		61E5C2D10EAFA4EEFD4DA171 /* Pods_just_safari_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81824A87297A39EAE00EDB72 /* Pods_just_safari_qrcode_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_safari_qrcode_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AC2799CD6F99DEC8830035 /* Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig"; path = "Target Support Files/Pods-just-safari-qrcode-just-safari-qrcodeUITests/Pods-just-safari-qrcode-just-safari-qrcodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,12 +227,12 @@
 		61E258D923E6DC2400FB1694 /* just-safari-qrcode Extension */ = {
 			isa = PBXGroup;
 			children = (
+				61E258FA23E8286400FB1694 /* icon.pdf */,
 				61E258DA23E6DC2400FB1694 /* SafariExtensionHandler.swift */,
 				61E258DC23E6DC2400FB1694 /* SafariExtensionViewController.swift */,
 				61E258DE23E6DC2400FB1694 /* SafariExtensionViewController.xib */,
 				61E258E123E6DC2400FB1694 /* Info.plist */,
 				61E258E223E6DC2400FB1694 /* script.js */,
-				61E258E423E6DC2400FB1694 /* ToolbarItemIcon.pdf */,
 				61E258E623E6DC2400FB1694 /* just_safari_qrcode_Extension.entitlements */,
 			);
 			path = "just-safari-qrcode Extension";
@@ -395,10 +395,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E258E523E6DC2400FB1694 /* ToolbarItemIcon.pdf in Resources */,
 				61E258E023E6DC2400FB1694 /* SafariExtensionViewController.xib in Resources */,
 				61E258F923E81C7B00FB1694 /* Podfile in Resources */,
 				61E258E323E6DC2400FB1694 /* script.js in Resources */,
+				61E258FB23E8286400FB1694 /* icon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

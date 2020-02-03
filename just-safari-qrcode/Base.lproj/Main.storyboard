@@ -98,8 +98,8 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="just_safari_qrcode" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="561" height="232"/>
+                    <view key="view" misplaced="YES" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="561" height="81"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ooh-eV-eLQ">
@@ -115,45 +115,16 @@ DQ
                                     </connections>
                                 </buttonCell>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="k1f-1I-dd2">
-                                <rect key="frame" x="188" y="131" width="71" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="二维码颜色" id="mFC-g2-X8c">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PoV-Uy-qu7">
-                                <rect key="frame" x="270" y="125" width="124" height="25"/>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1Ll-2m-7yE" id="r7o-Fm-FZx">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                    <menu key="menu" id="CDE-3e-36T">
-                                        <items>
-                                            <menuItem title="Item 1" state="on" id="1Ll-2m-7yE"/>
-                                            <menuItem title="Item 2" id="Z1T-HY-HEx"/>
-                                            <menuItem title="Item 3" id="vBy-C1-0jP"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="PoV-Uy-qu7" firstAttribute="leading" secondItem="k1f-1I-dd2" secondAttribute="trailing" constant="15" id="4Ya-kr-AgW"/>
                             <constraint firstAttribute="bottom" secondItem="ooh-eV-eLQ" secondAttribute="bottom" constant="30" id="5FK-7O-Kka"/>
                             <constraint firstItem="ooh-eV-eLQ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="50" id="8h8-Ov-cL6"/>
                             <constraint firstAttribute="trailing" secondItem="ooh-eV-eLQ" secondAttribute="trailing" constant="50" id="IjU-ZX-Edd"/>
-                            <constraint firstItem="ooh-eV-eLQ" firstAttribute="top" secondItem="k1f-1I-dd2" secondAttribute="bottom" constant="80" id="Ins-K1-rWX"/>
-                            <constraint firstItem="ooh-eV-eLQ" firstAttribute="top" secondItem="PoV-Uy-qu7" secondAttribute="bottom" constant="77" id="QFH-ya-GsG"/>
+                            <constraint firstItem="ooh-eV-eLQ" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Tcr-Fj-cRn"/>
+                            <constraint firstItem="ooh-eV-eLQ" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="Tnf-d1-rxp"/>
                             <constraint firstItem="ooh-eV-eLQ" firstAttribute="top" relation="lessThanOrEqual" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="181" id="WmA-LP-kVF"/>
-                            <constraint firstItem="PoV-Uy-qu7" firstAttribute="trailing" secondItem="ooh-eV-eLQ" secondAttribute="trailing" constant="-120" id="qXU-8D-pxq"/>
-                            <constraint firstItem="k1f-1I-dd2" firstAttribute="leading" secondItem="ooh-eV-eLQ" secondAttribute="leading" constant="140" id="uub-Yk-FP8"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="colorLabel" destination="k1f-1I-dd2" id="a0p-DO-kZV"/>
-                        <outlet property="colorSelect" destination="PoV-Uy-qu7" id="0ZW-Cm-Otu"/>
-                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
